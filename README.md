@@ -17,6 +17,7 @@ Using ArgoCD, the following deployment files are declarative yaml files:
 - service
 - ingress
 
+![Yaml_files](https://user-images.githubusercontent.com/113892424/215824600-24da50bd-8272-4875-94f2-db9f0ca55083.PNG)
 
 
 I created a self-signed certificate using openssl, which is managed by the cert-manager. 
