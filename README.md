@@ -1,4 +1,4 @@
-# Project: Wep App over HTTPS
+# Wep App over HTTPS with ArgoCD
 
 This repository contains the files used to deploy an Nginx web server to minikube and access it over HTTPS using TLS termination at the ingress level with cert-manager. The CD tool used is ArgoCD.
 
@@ -29,6 +29,7 @@ The folder (path) app_files contains the manifest files for the resources to be 
 ## Accessing the Web App
 To access the web app, open a browser and go to https://app-127-0-0-1.nip.io. The TLS termination at the ingress level using cert-manager automatically secure the connection and allow you to access the web app over HTTPS.
 
-![My Remote Image](https://drive.google.com/file/d/1F8LysCShjB66AsgWr4ftE3OrAgvsHZM5/view?usp=share_link)
+
+![nip io](https://user-images.githubusercontent.com/113892424/215744167-19f2aa17-80fc-4c1f-a872-2e97dd069e9b.PNG)
 
 
