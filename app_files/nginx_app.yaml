@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: nginx:1.22.1
+        image: nginx:1.23.3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
